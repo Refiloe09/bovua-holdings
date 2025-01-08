@@ -70,7 +70,7 @@ export default function StatsSection() {
         <p className="text-gray-400 mt-4 max-w-3xl mx-auto leading-relaxed">
           At Bovua Holdings, our mission is to empower communities, drive
           sustainable growth, and fuel Africa’s industries with innovation and
-          integrity. Our vision is to become the leading force behind Africa's
+          integrity. Our vision is to become the leading force behind Africa&apos;s
           energy, logistics, and housing sectors.
         </p>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -107,7 +107,7 @@ export default function StatsSection() {
     <section ref={sectionRef} className="py-20 bg-lightShade text-center">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-5xl font-bold text-dark mb-8">
-          Committed to South Africa's Growth
+          Committed to South Africa&apos;s Growth
         </h2>
 
         <MissionVisionValues />

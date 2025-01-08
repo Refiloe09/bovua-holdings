@@ -93,6 +93,7 @@ export default function ContactPage() {
             setFeedback("There was an issue submitting the form. Please try again.");
           }
         } catch (error) {
+          console.error(error);
           setSubmitting(false);
           setFeedback("An unexpected error occurred. Please try again.");
         }

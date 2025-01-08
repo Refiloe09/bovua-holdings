@@ -141,7 +141,7 @@ export const Navbar = () => {
               {navigation.map((item) =>
                 item.subLinks ? (
                   <Popover key={item.name} className="relative">
-                    {({ open, close }) => (
+                    {({  close }) => (
                       <>
                         <PopoverButton className="block w-full px-3 py-2 text-lg font-medium text-gray-200 hover:bg-primary hover:text-light">
                           {item.name}
